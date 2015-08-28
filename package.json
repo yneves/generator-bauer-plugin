@@ -1,0 +1,30 @@
+{
+  "name": "generator-bauer-plugin",
+  "version": "0.0.0",
+  "description": "Yeoman generator to create bauer-crawler plugin.",
+  "license": "MIT",
+  "main": "app/index.js",
+  "repository": "yneves/generator-bauer-plugin",
+  "author": {
+    "name": "Yuri Neves Silveira",
+    "email": "yurinevessilveira@gmail.com",
+    "url": "https://github.com/yneves"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "generators"
+  ],
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "dependencies": {
+    "yeoman-generator": "^0.19.0",
+    "chalk": "^1.0.0",
+    "yosay": "^1.0.2"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  }
+}
