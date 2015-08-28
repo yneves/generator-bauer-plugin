@@ -1,4 +1,4 @@
-# generator-bauer-plugin [![Build Status](https://secure.travis-ci.org/yneves/generator-bauer-plugin.png?branch=master)](https://travis-ci.org/yneves/generator-bauer-plugin)
+# generator-bauer-plugin 
 
 > [Yeoman](http://yeoman.io) generator
 
