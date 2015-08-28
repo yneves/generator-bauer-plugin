@@ -33,13 +33,13 @@ module.exports = yeoman.generators.Base.extend({
     },{
       type    : "input",
       name    : "author_name",
-      message : "Autho's name",
+      message : "Author's name",
       store   : true,
       default: ""
     },{
       type    : "input",
       name    : "author_website",
-      message : "Autho's website",
+      message : "Author's website",
       store   : true,
       default: ""
     }];
