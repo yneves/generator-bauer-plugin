@@ -12,7 +12,7 @@
 
 module.exports = {
   
-  "<%= plugin %>": {
+  <%= plugin %>: {
     
     // .<%= plugin %>(options Object) :Promise
     o: function(options) {

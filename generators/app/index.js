@@ -102,6 +102,10 @@ module.exports = yeoman.generators.Base.extend({
         this.destinationPath(".npmignore")
       );
       this.fs.copy(
+        this.templatePath("yo-rc.json"),
+        this.destinationPath(".yo-rc.json")
+      );
+      this.fs.copy(
         this.templatePath("_LICENSE"),
         this.destinationPath("LICENSE")
       );
