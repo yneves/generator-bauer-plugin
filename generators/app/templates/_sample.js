@@ -2,7 +2,6 @@
 
 "use strict";
 
-var fs = require("fs");
 var assert = require("assert");
 var Crawler = require("bauer-crawler");
 
@@ -16,7 +15,7 @@ crawler.loadPlugin(__dirname + "/../../");
 
 crawler.start(function() {
   
-  return this.promise();
+  return this.Promise.bind(this);
 });
 
 // - -------------------------------------------------------------------- - //

@@ -1,9 +1,9 @@
 {
   "name": "generator-bauer-plugin",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Yeoman generator to create bauer plugin.",
   "license": "MIT",
-  "main": "app/index.js",
+  "main": "generators/app/index.js",
   "repository": "https://github.com/yneves/generator-bauer-plugin",
   "author": {
     "name": "Yuri Neves Silveira",
